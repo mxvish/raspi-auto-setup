@@ -30,12 +30,14 @@ sudo apt -y install mu-editor
 sudo apt -y install tree 
 pip3 install wiringpi
 
-#midori=web browser with ad blocker
-sudo apt -y install midori
+#enable sound
+sudo raspi-config
+#system options -> audio -> mai pcm i2s-hifi-0
 
 #optional
 sudo apt -y install neofetch
 sudo apt -y install memtester
+sudo apt -y install midori
 
 #pip3 install jaconv
 #installed python3 modules:
