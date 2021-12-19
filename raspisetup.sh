@@ -46,6 +46,7 @@ sudo apt -y install midori
 #not installed: pysimplegui, jaconv
 
 #some commands are aliased at ~/.bashrc
+#set some settings at ~/.vimrc
 
 #reference
 #https://youtu.be/y45hsdAOpw
