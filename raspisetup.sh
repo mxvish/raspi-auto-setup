@@ -29,10 +29,13 @@ cd wiringpi
 sudo apt -y install mu-editor 
 sudo apt -y install tree 
 pip3 install wiringpi
+sudo apt -y install realvnc-vnc-server
 
-#enable sound
+#enable i2c, sound & vnc server
 sudo raspi-config
+#interface options -> i2c -> yes
 #system options -> audio -> mai pcm i2s-hifi-0
+#interface options -> vnc -> yes
 
 #optional
 sudo apt -y install neofetch
