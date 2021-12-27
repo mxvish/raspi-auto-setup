@@ -13,11 +13,10 @@ sudo apt -y install xfce4 xfce4-ternimal
 sudo apt -y install mpg321
 sudo apt -y install fcitx-mozc
 sudo apt -y install python3-pip 
-
-#to install i2cdetect
-sudo apt -y install i2c-tools
-
 sudo apt -y install python3-tk 
+
+#install i2cdetect
+sudo apt -y install i2c-tools
 
 #install gpio command
 sudo apt -y install git
@@ -31,6 +30,11 @@ sudo apt -y install mu-editor
 sudo apt -y install tree 
 pip3 install wiringpi
 sudo apt -y install realvnc-vnc-server
+sudo apt -y install network-manager
+sudo apt -y install network-manager-gnome --fix-missing
+sudo apt -y install xfce4-power-manager --fix-missing
+
+sudo apt -y purge openresolv dhcpcd5
 
 #enable i2c, sound & vnc server
 sudo raspi-config
