@@ -30,6 +30,7 @@ sudo apt -y install mu-editor
 sudo apt -y install tree 
 pip3 install wiringpi
 sudo apt -y install realvnc-vnc-server
+sudo apt -y install vim
 sudo apt -y install network-manager
 sudo apt -y install network-manager-gnome --fix-missing
 sudo apt -y install xfce4-power-manager --fix-missing
