@@ -2,7 +2,6 @@
 "D
 ":PlugInstall
 
-language en_US
 syntax on
 set cursorline
 set tabstop=4 
@@ -27,7 +26,7 @@ nnoremap <C-w> :w<CR>
 nnoremap <C-x> :x<CR>
 nnoremap r :wincmd v<bar> :Ex<CR>
 
-"inoremap { {<CR><BS><BS><BS><BS>}<Esc>ko
+inoremap { {}<Left>
 inoremap [ []<Left>
 inoremap ' ''<Left>
 inoremap " ""<Left>
