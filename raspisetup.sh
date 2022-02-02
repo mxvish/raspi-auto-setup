@@ -37,11 +37,12 @@ sudo apt -y install xfce4-power-manager --fix-missing
 #enable wifi
 sudo apt -y purge openresolv dhcpcd5
 
-#enable i2c, sound & vnc server
+#enable i2c, sound, vnc server, & us keyboard layout 
 sudo raspi-config
 #interface options -> i2c -> yes
 #system options -> audio -> mai pcm i2s-hifi-0
 #interface options -> vnc -> yes
+#localisation options -> keyboard -> yes -> yes ... no(x server)
 
 #optional
 sudo apt -y install neofetch
