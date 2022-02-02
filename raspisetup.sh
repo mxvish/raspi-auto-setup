@@ -48,7 +48,14 @@ sudo apt -y install neofetch
 sudo apt -y install memtester
 sudo apt -y install agnostics
 
+mv user-dirs.dirs .config/
+mv Desktop .Desktop
+mv Downloads .Downloads
+mv Public .Public
+rm -r Templates Documents Music Pictures Videos
+mkdir downloads
 
+reboot
 #pip3 install jaconv
 #installed python3 modules:
 	#tkinter, wiringpi, random, time, subprocess, RPi.GPIO, unicodedata 
