@@ -1,8 +1,9 @@
 # raspi_auto_setup
 My configuration files to setup raspberry pi
 
-<b>usage</b>
+## installation & usage
 <pre>
-sh raspisetup.sh
+git clone https://github.com/kenteroshima/raspi_auto_setup.git
+mv raspi_auto_setup/raspisetup.sh ~/
+sudo sh raspisetup.sh
 </pre>
-in your home directory
