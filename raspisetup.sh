@@ -45,7 +45,6 @@ sudo raspi-config
 #optional
 sudo apt -y install neofetch
 sudo apt -y install memtester
-sudo apt -y install midori
 sudo apt -y install agnostics
 
 #pip3 install jaconv
