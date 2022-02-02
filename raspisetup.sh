@@ -6,8 +6,7 @@
 
 sudo apt -y update
 sudo apt -y upgrade
-sudo apt -y install xfce4 xfce4-ternimal
-#default is raspberrypi-ui-mods
+sudo apt -y install raspberrypi-ui-mods
 
 #after GUI was installed
 sudo apt -y install mpg321
