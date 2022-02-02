@@ -34,6 +34,7 @@ sudo apt -y install network-manager
 sudo apt -y install network-manager-gnome --fix-missing
 sudo apt -y install xfce4-power-manager --fix-missing
 
+#enable wifi
 sudo apt -y purge openresolv dhcpcd5
 
 #enable i2c, sound & vnc server
