@@ -50,10 +50,9 @@ sudo apt -y install agnostics
 
 mv user-dirs.dirs .config/
 mv Desktop .Desktop
-mv Downloads .Downloads
+mv Downloads downloads
 mv Public .Public
 rm -r Templates Documents Music Pictures Videos
-mkdir downloads
 
 reboot
 #pip3 install jaconv
