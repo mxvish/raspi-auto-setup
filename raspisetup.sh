@@ -47,6 +47,8 @@ sudo raspi-config
 #optional
 sudo apt -y install neofetch
 #sudo apt -y install agnostics
+sudo apt -y install nodejs
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 mv user-dirs.dirs .config/
 mv Desktop .Desktop
@@ -55,14 +57,6 @@ mv Public .Public
 rm -r Templates Documents Music Pictures Videos
 
 reboot
-#pip3 install jaconv
-#installed python3 modules:
-	#tkinter, wiringpi, random, time, subprocess, RPi.GPIO, unicodedata 
-
-#not installed: pysimplegui, jaconv
 
 #some commands are aliased at ~/.bashrc
 #set some settings at ~/.vimrc
-
-#reference
-#https://youtu.be/y45hsdAOpw
