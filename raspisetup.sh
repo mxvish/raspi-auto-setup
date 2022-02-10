@@ -49,6 +49,8 @@ sudo apt -y install neofetch
 #sudo apt -y install agnostics
 sudo apt -y install nodejs
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sudo nano /etc/default/keyboard
+#XKBLAYOUT="en"
 
 mv user-dirs.dirs .config/
 mv Desktop .Desktop
@@ -57,6 +59,5 @@ mv Public .Public
 rm -r Templates Documents Music Pictures Videos
 
 reboot
-
 #some commands are aliased at ~/.bashrc
 #set some settings at ~/.vimrc
