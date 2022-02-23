@@ -59,6 +59,8 @@ mv Desktop .Desktop
 mv Downloads downloads
 mv Public .Public
 rm -r Templates Documents Music Pictures Videos
+mv user-dirs.dirs .config/
+mv vimrc .vimrc
 
 reboot
 #some commands are aliased at ~/.bashrc
