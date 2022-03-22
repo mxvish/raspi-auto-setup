@@ -22,8 +22,6 @@ sudo apt -y install git
 git clone https://github.com/wiringpi/wiringpi
 cd wiringpi
 ./build
-#gpio -v
-#gpio readall
 
 sudo apt -y install mu-editor 
 pip3 install wiringpi
@@ -37,12 +35,14 @@ sudo apt -y purge openresolv dhcpcd5
 
 #enable i2c, sound, vnc server, ssh, us keyboard layout & auto login
 sudo raspi-config
-#interface options -> i2c -> yes
-#system options -> audio -> mai pcm i2s-hifi-0
-#interface options -> vnc -> yes
-#interface options -> ssh -> yes
-#localisation options -> keyboard -> yes -> yes ... no(x server)
-#1 System Options -> S5 Boot / Auto Login -> B2 Desktop Autologin
+:'
+interface options -> i2c -> yes
+system options -> audio -> mai pcm i2s-hifi-0
+interface options -> vnc -> yes
+interface options -> ssh -> yes
+localisation options -> keyboard -> yes -> yes ... no(x server)
+1 System Options -> S5 Boot / Auto Login -> B2 Desktop Autologin
+'
 
 #optional
 sudo apt -y install tree 
