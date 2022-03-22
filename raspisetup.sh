@@ -26,10 +26,8 @@ cd wiringpi
 #gpio readall
 
 sudo apt -y install mu-editor 
-sudo apt -y install tree 
 pip3 install wiringpi
 sudo apt -y install realvnc-vnc-server
-sudo apt -y install vim
 sudo apt -y install network-manager
 sudo apt -y install network-manager-gnome --fix-missing
 sudo apt -y install xfce4-power-manager --fix-missing
@@ -47,6 +45,8 @@ sudo raspi-config
 #1 System Options -> S5 Boot / Auto Login -> B2 Desktop Autologin
 
 #optional
+sudo apt -y install tree 
+sudo apt -y install vim
 sudo apt -y install neofetch
 #sudo apt -y install agnostics
 sudo apt -y install nodejs
