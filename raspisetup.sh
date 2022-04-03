@@ -41,7 +41,7 @@ sudo raspi-config
 3 interface options -> vnc -> yes
 3 interface options -> ssh -> yes
 5 localisation options -> keyboard -> yes -> yes ... no(x server)
-1 System Options -> S5 Boot / Auto Login -> B2 Desktop Autologin
+1 System Options -> S5 Boot / Auto Login -> B4 Desktop Autologin
 '
 
 #optional
