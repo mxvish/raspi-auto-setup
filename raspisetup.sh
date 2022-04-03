@@ -36,11 +36,11 @@ sudo apt -y purge openresolv dhcpcd5
 #enable i2c, sound, vnc server, ssh, us keyboard layout & auto login
 sudo raspi-config
 :'
-interface options -> i2c -> yes
-system options -> audio -> mai pcm i2s-hifi-0
-interface options -> vnc -> yes
-interface options -> ssh -> yes
-localisation options -> keyboard -> yes -> yes ... no(x server)
+3 interface options -> i2c -> yes
+1 system options -> audio -> mai pcm i2s-hifi-0
+3 interface options -> vnc -> yes
+3 interface options -> ssh -> yes
+5 localisation options -> keyboard -> yes -> yes ... no(x server)
 1 System Options -> S5 Boot / Auto Login -> B2 Desktop Autologin
 '
 
