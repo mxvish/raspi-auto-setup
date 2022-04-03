@@ -47,12 +47,12 @@ sudo raspi-config
 #optional
 sudo apt -y install tree 
 sudo apt -y install vim
+mv vimrc .vimrc
 sudo apt -y install neofetch
 #sudo apt -y install agnostics
 sudo apt -y install nodejs
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-mv vimrc .vimrc
 
 reboot
 #some commands are aliased at ~/.bashrc
