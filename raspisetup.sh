@@ -33,11 +33,10 @@ sudo apt -y install xfce4-power-manager --fix-missing
 #enable wifi
 sudo apt -y purge openresolv dhcpcd5
 
-#enable i2c, sound, vnc server, ssh, us keyboard layout & auto login
+#enable i2c, vnc server, ssh, us keyboard layout & auto login
 sudo raspi-config
 :'
 3 interface options -> i2c -> yes
-1 system options -> audio -> mai pcm i2s-hifi-0
 3 interface options -> vnc -> yes
 3 interface options -> ssh -> yes
 5 localisation options -> keyboard -> yes -> yes ... no(x server)
@@ -47,6 +46,7 @@ sudo raspi-config
 #optional
 sudo apt -y install tree 
 sudo apt -y install vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 mv vimrc .vimrc
 sudo apt -y install neofetch
 #sudo apt -y install agnostics
