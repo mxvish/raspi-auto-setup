@@ -21,7 +21,6 @@ call plug#end()
 nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-l> :wincmd l<CR>
 nnoremap <C-q> :q<CR>
-nnoremap <C-v> :wincmd v<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-x> :x<CR>
 nnoremap r :wincmd v<bar> :Ex<CR>
