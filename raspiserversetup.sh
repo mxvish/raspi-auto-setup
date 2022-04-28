@@ -45,7 +45,7 @@ sudo raspi-config
 
 #optional
 sudo apt -y install vim
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+#curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 mv vimrc .vimrc
 #sudo apt -y install agnostics
 sudo apt -y install nodejs
