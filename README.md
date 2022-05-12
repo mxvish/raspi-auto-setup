@@ -4,7 +4,7 @@ My configuration files to setup raspberry pi
 ## installation & usage
 <pre>
 sudo apt -y install git
-git clone https://github.com/mxvish/raspi_auto_setup.git
-mv raspi_auto_setup/* ~/
+git clone https://github.com/mxvish/raspi-auto-setup.git
+mv raspi-auto-setup/* ~/
 sudo sh raspisetup.sh
 </pre>
