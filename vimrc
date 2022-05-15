@@ -56,4 +56,6 @@ inoremap <C-f> <Right>
 inoremap <C-b> <Left>
 inoremap <C-d> <Del>
 
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+
 nmap <Esc><Esc> :nohlsearch<Esc>
