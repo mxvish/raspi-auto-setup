@@ -10,7 +10,6 @@ sudo apt -y install raspberrypi-ui-mods
 
 #after GUI was installed
 sudo apt -y install mpg123
-sudo apt -y install fcitx-mozc
 sudo apt -y install python3-pip 
 sudo apt -y install python3-tk 
 
