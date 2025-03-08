@@ -17,6 +17,12 @@ packages=(
     vim
 )
 
+for i in "${packages[@]}"; do
+        sudo apt install "$i" -y;
+done;
+
+curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /home/$USER/.vimrc
+
 #after GUI was installed
 sudo apt -y install mpg123
 sudo apt -y install python3-pip 
