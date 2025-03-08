@@ -23,6 +23,8 @@ done;
 
 curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /home/$USER/.vimrc
 
+sudo timedatectl set-timezone Asia/Tokyo
+
 #after GUI was installed
 sudo apt -y install mpg123
 sudo apt -y install python3-pip 
