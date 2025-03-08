@@ -6,7 +6,16 @@
 
 sudo apt -y update
 sudo apt -y upgrade
-sudo apt -y install raspberrypi-ui-mods
+#sudo apt -y install raspberrypi-ui-mods
+
+packages=(
+    aerc
+    blueman
+    fcitx5-mozc
+    ranger
+    sway
+    vim
+)
 
 #after GUI was installed
 sudo apt -y install mpg123
