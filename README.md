@@ -6,5 +6,5 @@ My configuration files to setup raspberry pi
 sudo apt -y install git
 git clone https://github.com/mxvish/raspi-auto-setup.git
 mv raspi-auto-setup/* ~/
-sudo sh setup.sh
+sudo bash setup.sh
 ```
