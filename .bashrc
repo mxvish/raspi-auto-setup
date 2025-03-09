@@ -241,3 +241,5 @@ alias y='open "https://www.youtube.com/feed/playlists"'
 
 PROMPT_COMMAND="printf '\n';$PROMPT_COMMAND"
 PS1='\W $'
+
+xmodmap ~/.Xmodmap
