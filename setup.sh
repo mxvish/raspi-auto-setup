@@ -22,6 +22,7 @@ for i in "${packages[@]}"; do
 done;
 
 curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /home/$USER/.vimrc
+curl https://raw.githubusercontent.com/mxvish/i3config/main/config > ~/.config/i3/config
 
 sudo timedatectl set-timezone Asia/Tokyo
 
