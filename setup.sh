@@ -12,9 +12,13 @@ packages=(
     aerc
     blueman
     fcitx5-mozc
+    firefox
+    i3
     ranger
-    sway
     vim
+    xfce4-terminal
+    xinit
+    xserver-xorg
 )
 
 for i in "${packages[@]}"; do
