@@ -33,6 +33,11 @@ curl https://raw.githubusercontent.com/mxvish/i3config/main/config > ~/.config/i
 wget https://raw.githubusercontent.com/mxvish/i3status/main/i3status.conf
 sudo mv i3status.conf /etc/
 
+echo 'clear lock
+clear control
+keycode 66 = Control_L
+add control = Control_L Control_R' > ~/.Xmodmap
+
 sudo timedatectl set-timezone Asia/Tokyo
 
 #after GUI was installed
