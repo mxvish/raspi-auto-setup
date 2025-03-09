@@ -21,7 +21,10 @@ for i in "${packages[@]}"; do
         sudo apt install "$i" -y;
 done;
 
-curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /home/$USER/.vimrc
+DEFAULT_USER=mxvish
+echo 'exec i3' > /home/$DEFAULT_USER/.xinitrc
+curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /home/$DEFAULT_USER/.vimrc
+
 curl https://raw.githubusercontent.com/mxvish/i3config/main/config > ~/.config/i3/config
 wget https://raw.githubusercontent.com/mxvish/i3status/main/i3status.conf
 sudo mv i3status.conf /etc/
