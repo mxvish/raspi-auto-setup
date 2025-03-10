@@ -16,6 +16,7 @@ packages=(
     i3
     ranger
     vim
+    xclip
     xfce4-terminal
     xinit
     xserver-xorg
