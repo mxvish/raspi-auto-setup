@@ -191,7 +191,6 @@ alias ou='open https://outlook.office.com/mail'
 alias op='v ~/.bashrc;source ~/.bashrc'
 alias p='python3'
 alias pe='open https://www.perplexity.ai/'
-alias po='poweroff'
 alias pr='open https://projecteuler.net/archives'
 function pu {
     local url="https://pubmed.ncbi.nlm.nih.gov/?term="
