@@ -125,8 +125,6 @@ function aw {
     open $url
 }
 alias b='open http://mubou.seesaa.net/'
-alias bi='brew install'
-alias bs='brew search'
 alias c='open https://gemini.google.com'
 alias cac='open https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/'
 alias cdd='cd ~/downloads'
@@ -209,6 +207,7 @@ function sc {
     url+=${@}
     open $url
 }
+alias si='sudo apt install -y'
 function sm {
     local url="https://sm.rakuten.co.jp/search?keyword="
     url+=${@}
