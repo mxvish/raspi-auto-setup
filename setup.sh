@@ -40,6 +40,7 @@ keycode 66 = Control_L
 add control = Control_L Control_R' > ~/.Xmodmap
 
 sudo timedatectl set-timezone Asia/Tokyo
+#add "quiet" to /boot/firmware/cmdline.txt
 
 #after GUI was installed
 sudo apt -y install mpg123
