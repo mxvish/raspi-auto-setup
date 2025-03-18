@@ -38,6 +38,8 @@ curl https://raw.githubusercontent.com/mxvish/i3config/main/config > ~/.config/i
 wget https://raw.githubusercontent.com/mxvish/i3status/main/i3status.conf
 sudo mv i3status.conf /etc/
 
+sudo chown -R $DEFAULT_USER:$DEFAULT_USER /home/$DEFAULT_USER/.cache
+
 echo 'clear lock
 clear control
 keycode 66 = Control_L
