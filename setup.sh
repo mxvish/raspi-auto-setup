@@ -15,6 +15,7 @@ packages=(
     firefox
     i3
     ranger
+    scrot
     vim
     xclip
     xfce4-terminal
