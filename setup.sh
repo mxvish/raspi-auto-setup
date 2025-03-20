@@ -36,6 +36,11 @@ echo -e 'if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
 fi' >> /home/$DEFAULT_USER/.bash_profile
 mv raspi-auto-setup/.bashrc /home/$DEFAULT_USER/
 
+echo 'clear lock
+clear control
+keycode 66 = Control_L
+add control = Control_L Control_R' > /home/$DEFAULT_USER/.Xmodmap
+
 curl https://raw.githubusercontent.com/mxvish/i3config/main/config > ~/.config/i3/config
 wget https://raw.githubusercontent.com/mxvish/i3status/main/i3status.conf
 sudo mv i3status.conf /etc/
