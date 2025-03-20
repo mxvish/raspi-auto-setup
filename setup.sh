@@ -34,6 +34,7 @@ curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /home/$DEFAULT_
 echo -e 'if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
 \texec startx
 fi' >> /home/$DEFAULT_USER/.bash_profile
+mv raspi-auto-setup/.bashrc /home/$DEFAULT_USER/
 
 curl https://raw.githubusercontent.com/mxvish/i3config/main/config > ~/.config/i3/config
 wget https://raw.githubusercontent.com/mxvish/i3status/main/i3status.conf
